@@ -89,3 +89,10 @@ export default function EditEvent() {
   }
   return <Modal onClose={handleClose}>{content}</Modal>;
 }
+
+// export function loader({ params }) {
+//   return queryClient.fetchQuery({
+//     queryKey: ["events", params.id],
+//     queryFn: ({ signal }) => fetchEvent({ signal, id: params.id }),
+//   });
+// }
